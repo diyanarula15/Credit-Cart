@@ -1,7 +1,7 @@
 # 💳 Credit Card Fraud Detection
 
 ## Abstract
-I implemented a machine learning pipeline to detect fraudulent credit card transactions. Using Python and popular libraries, I preprocessed the data, trained several models, and built a simple demo app.
+I implemented a machine learning pipeline to detect fraudulent credit card transactions. Using Python and popular libraries, I preprocessed the data, trained several models.
 
 ## Libraries
 - pandas, numpy, matplotlib, seaborn  
@@ -19,8 +19,6 @@ I implemented a machine learning pipeline to detect fraudulent credit card trans
    - Compared models using AUC, precision, recall  
 3. **Explainability**  
    - Used SHAP to see which features matter most  
-4. **Demo App**  
-   - Created a Streamlit interface to upload CSVs and view fraud predictions  
 
 ## Results
 - **Best Model (XGBoost):** AUC ≈ 0.99, Precision ≈ 0.92, Recall ≈ 0.96
