@@ -20,6 +20,12 @@ I implemented a machine learning pipeline to detect fraudulent credit card trans
 3. **Explainability**  
    - Used SHAP to see which features matter most  
 
+## Data
+- **Dataset:** Kaggle – Credit Card Fraud Detection  
+- **Rows:** 284,808 transactions  
+- **Attributes:** 31 (V1–V28 PCA features, Time, Amount, Class)  
+- **Source:** https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 ## Results
 - **Best Model (XGBoost):** AUC ≈ 0.99, Precision ≈ 0.92, Recall ≈ 0.96
 
