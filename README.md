@@ -31,7 +31,7 @@ I implemented a machine learning pipeline to detect fraudulent credit card trans
 
 ## Quick Start
 ```bash
-git clone https://github.com/YOUR_USERNAME/Fraud-Detection
+git clone https://github.com/diyanarula15/Credit-Cart
 cd Credit-Card-Fraud-Detection
 pip install -r requirements.txt
 python src/train.py            # train models
